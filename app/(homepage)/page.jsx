@@ -1,6 +1,5 @@
 
 import React from 'react'
-import Link from 'next/link';
 import Header from '../components/header';
 import Card from '../components/card';
 const getListings = async () => {
