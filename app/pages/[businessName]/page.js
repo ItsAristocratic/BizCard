@@ -54,4 +54,4 @@ const BusinessPage = async ({ params }) => {
   );
 };
   
-  export default BusinessPage;
+export default BusinessPage;
