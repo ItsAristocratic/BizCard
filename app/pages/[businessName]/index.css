@@ -1,0 +1,30 @@
+#root {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(40, 40, 40);
+    color: white;
+  }
+  
+  #root div {
+    color: white;
+  }
+  
+  #root input {
+    background-color: transparent;
+    color: white;
+  }
+  
+  #root input::placeholder {
+    color: white;
+  }
+  
+  #root input:-ms-input-placeholder {
+    color: white;
+  }
+  
+  #root input::-ms-input-placeholder {
+    color: white;
+  }
+
+
+  

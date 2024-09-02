@@ -1,0 +1,35 @@
+.formPage {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(40, 40, 40);
+    color: white;
+    padding: 0;
+    margin: 0;
+    div {
+        color: white
+    }
+    input{
+        background-color: transparent;
+        color: white;
+        :-ms-input-placeholder {
+            color: white;
+         }
+        ::-ms-input-placeholder {
+            color: white;
+         }
+        
+    }
+    input::placeholder {
+        color: white;
+    }
+}
+.form-text {
+    color: white;
+}
+.form-control {
+    background-color: transparent;
+    color: white;
+    ::placeholder {
+        color: white;
+    }
+}
