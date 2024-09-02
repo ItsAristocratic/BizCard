@@ -53,18 +53,5 @@ const BusinessPage = async ({ params }) => {
     </div>
   );
 };
-/*export async function getServerSideProps(context) {
-    const { company } = context.params;
-  
-    // Fetch data based on businessName
-    const response = await fetch(`http://localhost:3000/api/projects/business/${company}`);
-    const data = await response.json();
-  
-    return {
-      props: {
-        business: data.business || null
-      }
-    };
-  }*/
   
   export default BusinessPage;
