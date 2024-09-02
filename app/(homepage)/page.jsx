@@ -4,7 +4,7 @@ import Header from '../components/header';
 import Card from '../components/card';
 const getListings = async () => {
   try {
-    let response = await fetch('http://localhost:3000/api/projects');
+    let response = await fetch('/api/projects');
     let data = await response.json();
 
     // Ensure `data.result` is an array

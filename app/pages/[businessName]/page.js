@@ -2,7 +2,7 @@ import './page.css'
 import Header from '@/app/components/header';
 const getOneListings = async (businessName) => {
   try {
-    let response = await fetch(`http://localhost:3000/api/projects/business/${businessName}`);
+    let response = await fetch(`/api/projects/business/${businessName}`);
     let data = await response.json();
 
     // Ensure `data` is in the expected format

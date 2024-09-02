@@ -18,7 +18,7 @@ const businessCreate = () => {
       event.preventDefault()
       console.log(businessUserEmail, businessUserPassword, businessName, ownerName, address, phone, businessProcess)
       
-      let result = await fetch ('http://localhost:3000/api/projects', {
+      let result = await fetch ('/api/projects', {
         method:"POST",
         headers: {
           "Content-Type": "application/json" // Specify the content type
